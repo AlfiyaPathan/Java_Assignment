@@ -9,9 +9,9 @@ public class MedicineTest {
 	Medicine m []=new Medicine[10];
 	Random r = new Random();
 	//Medicine me=new Medicine();
-	int v =r.nextInt(3);
+	
 	for (int i = 0; i < m.length; i++) {
-		 
+		int v =r.nextInt(3);
 		if (v==0) {
 			
 			m[i]=new Ointment();
